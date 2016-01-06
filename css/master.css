@@ -1,7 +1,19 @@
 body {
-	margin-top: 0px;
+	margin-top: 0px;	
+}
+header, nav, section, footer{
+	max-width: 1000px;
+	margin: 0 auto;
+}
+header h1,p{
+	text-align: center;
 }
 .centrar{
 	margin-top: 0px;
 	background-color: #ccddff;
+}
+li {
+	list-style-type: none;
+   	display: inline;
+   	padding-right: 5px;	
 }
